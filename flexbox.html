@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<style>
+			.basic
+			{
+				display: flex;
+				width: 100%;
+				flex-direction: column;
+			}
+			.body
+			{
+				display: flex;
+				flex-basis: 100%;
+				flex-direction: row;
+			}
+			.hfooter
+			{
+				background-color: #954535;
+				height: 100px;
+				h1
+				{
+					color: green;
+				}
+			}
+			
+			.justifying
+			{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center; 
+			}
+
+			.menu
+			{
+				flex-basis: 200px; flex-shrink: 0; flex-grow: 0; background-image: url('yellow.png'); background-position: left; background-repeat: repeat-y;
+			}
+
+			.main
+			{
+				background-image: url('sikan.jpg'); 
+				background-repeat: repeat-y;
+				background-position: right;
+			}
+
+			img.rap_style
+			{
+				padding-right: 20px;
+				padding-left: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				width: 28%;
+				height: 250px;
+				float: left;
+			}
+
+			@media all and (max-width: 45em)
+			{
+				.body
+				{
+					display: flex;
+					flex-basis: 100%;
+					flex-direction: column-reverse;
+				}
+				.menu
+				{
+					flex-basis: 100%; flex-shrink: 0; flex-grow: 0; background-image: none; background-position: none; background-repeat: none;
+					li
+					{
+						display: inline;
+					}
+				}
+
+				.main
+				{
+					background-image: none; 
+					background-repeat: none;
+					background-position: none;
+					display: flex;
+					flex-direction: column;
+				}
+
+				.hfooter
+				{
+					display: none;
+					h1{display: none;}
+				}
+
+				img.rap_style
+				{
+					padding-right: 0px;
+					padding-left: 0px;
+					margin-right: 0px;
+					margin-right: 0px;
+					width: 100%;
+					float: none;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class = "basic">
+			<div class = "hfooter justifying">
+			<h1>СУБХАНАЛЛАХ ЛЮБИТЕЛЯМ РЭПА!</h1>
+			</div>
+			<div class = "body">
+				<div class="menu justifying">
+					<h4>Звукозапись:</h4>
+					<ul>
+					<li> <a href = "form.html">Отправка формы</a></li>
+					<li> <a href = "menu.html">Открыть меню</a></li>
+					<li> <a href = "https://fr.wikipedia.org/wiki/Bayan_(instrument)">Баян</a></li>
+					<li> <a href = "https://www.transfermarkt.world/danylo-sikan/profil/spieler/417228">Гармошка</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejg2jm/">Дудка</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejs4RU/">Звуковая карта</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejtmEp/">Наушники</a></li>
+					<li> <a href = "https://www.youtube.com/watch?v=IzI4f0qxnjk&ab_channel=%D0%9A%D0%A0%D0%9E%D0%A1%D0%AB">Грувбокс</a></li>
+					<li> <a href = "https://fr.wikipedia.org/wiki/Bayan_(instrument)">Фортепиано</a></li>
+					<li> <a href = "https://www.transfermarkt.world/danylo-sikan/profil/spieler/417228">Балалайка</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejg2jm/">Микрофон</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejs4RU/">Гусли</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejtmEp/">Треугольник</a></li>
+					<li> <a href = "https://www.youtube.com/watch?v=IzI4f0qxnjk&ab_channel=%D0%9A%D0%A0%D0%9E%D0%A1%D0%AB">Цымбалы</a></li>
+					<li> <a href = "https://www.transfermarkt.world/danylo-sikan/profil/spieler/417228">Балалайка</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejg2jm/">Инструмент 1</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejs4RU/">Инструмент 2</a></li>
+					<li> <a href = "https://vm.tiktok.com/ZMMejtmEp/">Инструмент 3</a></li>
+					<li> <a href = "https://www.youtube.com/watch?v=IzI4f0qxnjk&ab_channel=%D0%9A%D0%A0%D0%9E%D0%A1%D0%AB">Инструмент 4</a></li>
+					</ul>
+				</div>
+				<div class="main justifying">
+						<h2 style = "margin: 0px;">РЭП</h2>
+						<p style= "text-indent: 5px"><img src = "rap.jpg", class = "rap_style">
+						Рэп &mdash; музыкальная форма вокальной подачи, включающая в себя «рифму, ритмичную речь и уличный жаргон»[4], которая исполняется или произносится нараспев различными способами, как правило, под фоновый бит или музыкальный аккомпанемент[4]. Компоненты рэпа включают в себя «содержание» (то, что говорится), «флоу» (ритм, рифма) и «подачу» (каденция, тон)[5]. Рэп отличается от устной поэзии тем, что обычно исполняется под музыкальное сопровождение[6]. Рэп — основной элемент хип-хоп-музыки, обычно ассоциируется именно с этим жанром и даже служит его метонимией; однако истоки рэпа на много лет предшествовали появлению хип-хоп-культуры.>
+						<br>
+						В СССР рэп появился в 1980-е годы с развитием дискотек и деятельности диск-жокеев. В 1983−1984 годах были зафиксированы первые эксперименты с рэпом. Однако рэп, в отличие от рока, тогда не прижился[51]. Впервые рэп на русском языке прозвучал из уст куйбышевского диск-жокея Александра А́строва[52][53][54][55][56][57][58][59][60]. В конце 1983 года А́стров предложил местной рок-группе «Час пик», в которой он работал звукооператором и был автором большинства текстов, записать для его дискотеки «Канон» несколько оригинальных номеров для областного конкурса дискотек в Тольятти. В качестве музыкальной основы для эксперимента был взят сингл британского рок-музыканта Captain Sensible «Wot»[en] (1982), а также сингл американской рэп-группы The Sugarhill Gang «Rapper’s Delight» (1979)[52][57]. Рэп был исполнен А́стровым в стилистике группы The Sugarhill Gang, однако не нёс однозначной смысловой нагрузки[61]. Копия записи случайным образом отправилась в Москву, вернувшись обратно в Куйбышев через год в виде 25-минутного магнитоальбома «Рэп» (1984)[62][63].
+						<br>
+						В 1985 году рэп стал появляться в творчестве рок-исполнителей. Константин Кинчев из рок-группы «Алиса» исполнил речитатив в песне «Меломан», завершавшийся фразой «И вот пою ещё одну песню в стиле рэп»
+						</p>
+			
+				</div>
+			</div>
+
+			<div class = "hfooter justifying">
+				<h1>БИСМИЛЛЯ!!!</h1>
+			</div>
+		</div>
+
+		
+	</body>
+</html>
